@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Мария Баринова](https://up.htmlacademy.ru/adaptive/20/user/1315955).
-* Наставник: `Неизвестно`.
+* Наставник: [Михал Кислый](https://htmlacademy.ru/profile/id1118577).
 
 ---
 
