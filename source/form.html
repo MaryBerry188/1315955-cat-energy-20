@@ -49,7 +49,85 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="page-main">
+
+        <section class="page-main__program program">
+            <h1 class="program__page-article-title">Подбор программы</h1>
+            <p class="program__text">Заполните анкету и мы подберем программу питания для вашего кота</p>
+
+            <form class="program__form" method="POST" action="https://echo.htmlacademy.ru/">
+
+                <fieldset class="program__cat-data">
+                    <label class="program__form-label" for="name">Имя:*</label>
+                    <input class="program__cat-name" type="text" name="name" id="name" placeholder="Барсик">
+
+                    <label class="program__form-label" for="weight">Вес (кг):*</label>
+                    <input class="program__cat-weight" type="text" name="weight" id="weight" placeholder="7">
+
+                    <label class="program__form-label" for="age">Возраст (лет):*</label>
+                    <input class="program__cat-age" type="text" name="age" id="age" placeholder="7">
+                </fieldset>
+
+                <fieldset class="program__diet">
+                    <input class="visually-hidden" type="radio" name="diet" id="loosing" value="loosing">
+                    <label class="program__right-label" for="loosing">Похудение</label>
+
+                    <input class="visually-hidden" type="radio" name="diet" id="weight-gain" value="gaining">
+                    <label class="program__right-form-label" for="weight-gain">Набор массы</label>
+
+                    <input class="visually-hidden" type="radio" name="diet" id="need-advice" value="noidea">
+                    <label class="program__right-form-label" for="need-advice">Не знаю (нужен ваш совет)</label>
+                </fieldset>
+
+                <fieldset class="program__fieldset">
+                    <legend class="program__legend">Контактные данные (владельца кота)</legend>
+
+                    <label class="program__form-label" for="email">E-mail:*</label>
+                    <input class="program__email" type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
+
+                    <label class="program__form-label" for="tel">Телефон</label>
+                    <input class="program__tel" type="tel" name="tel" id="tel" placeholder="8 (960) 900-60-90">
+                </fieldset>
+
+                <fieldset class="program__fieldset">
+                    <legend class="program__legend">Комментарий</legend>
+
+                    <label class="visually-hidden" for="comment">Оставьте комментарий</label>
+                    <textarea class="program__user-message" name="comment" id="comment" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота"></textarea>
+                </fieldset>
+
+                <fieldset class="program__fieldset">
+                    <legend class="program__legend">Дополнительно</legend>
+
+                    <input class="visually-hidden" type="checkbox" name="sugar" id="sugar">
+                    <label class="program__right-label" for="sugar">Сахарозаменитель</label>
+
+                    <input class="visually-hidden" type="checkbox" name="water" id="water">
+                    <label class="program__right-label" for="water">Питьевая вода</label>
+
+                    <input class="visually-hidden" type="checkbox" name="milk" id="milk">
+                    <label class="program__right-label" for="milk">Молоко</label>
+
+                    <input class="visually-hidden" type="checkbox" name="vitamins" id="vitamins">
+                    <label class="program__right-label" for="vitamins">Витамины</label>
+                </fieldset>
+
+                <button class="program__button button" type="submit">Отправить заявку</button>
+
+                <p class="program__required-fields">* — Обязательные поля</p>
+
+            </form>
+        </section>
+
+        <div class="page-main__contacts contacts">
+            <h2 class="visually-hidden">Контакты</h2>
+            <div class="contacts__text-block">
+                <b class="contacts__partnership">Приглашаем к сотрудничеству дилеров!</b>
+                <address class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+            </div>
+            <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533216!2d30.32085871604311!3d59.93871648187625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sde!4v1595177807581!5m2!1sru!2sde"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"></iframe>
+        </div>
 
     </main>
 
