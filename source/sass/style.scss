@@ -1,3 +1,24 @@
-body {
-    background: red;
-}
+@import "variables.scss";
+@import "base.scss";
+@import "blocks/page.scss";
+@import "blocks/button.scss";
+@import "blocks/catalog.scss";
+@import "blocks/contacts.scss";
+@import "blocks/copyright.scss";
+@import "blocks/diets.scss";
+@import "blocks/extra.scss";
+@import "blocks/extra-item.scss";
+@import "blocks/functional-food.scss";
+@import "blocks/how-it-works.scss";
+@import "blocks/live-example.scss";
+@import "blocks/diet.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/more-items.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-header.scss";
+@import "blocks/program.scss";
+@import "blocks/gift.scss";
+@import "blocks/socials.scss";
+@import "blocks/product-catalog";
+@import "blocks/product-item";
+@import "container";
