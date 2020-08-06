@@ -1,0 +1,27 @@
+.functional-food {
+    font-family: $oswald;
+    outline: 2px solid tomato;
+}
+
+.functional-food {
+    padding-top: 27px;
+    background-image: url("../img/index-background-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.functional-food__header {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: normal;
+    text-align: center;
+    color: $white;
+}
+
+.functional-food__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: $white;
+}

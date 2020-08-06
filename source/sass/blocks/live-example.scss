@@ -1,0 +1,49 @@
+.live-example {
+    background-color: $live_example-grey;
+    margin: auto;
+    padding-top: 27px;
+    padding-left: 20px;
+    padding-bottom: 31px;
+    ;
+    outline: 2px solid red;
+}
+
+.live-example__page-article-title {
+    font-family: $oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.live-example__text {
+    font-family: $arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: $special_dark-grey;
+}
+
+.live-example__number {
+    font-family: $oswald;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.live-example__number-description {
+    font-family: $arial;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.live-example__costs {
+    font-family: $oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}

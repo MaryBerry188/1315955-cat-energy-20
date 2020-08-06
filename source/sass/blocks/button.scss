@@ -1,0 +1,17 @@
+.button {
+    padding-top: 7px;
+    padding-right: 44px;
+    padding-bottom: 7px;
+    padding-left: 44px;
+    line-height: 18px;
+    color: $white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background-color: $basic_green;
+    font-family: $oswald;
+    &--show-all {
+        color: $special_dark-grey;
+        background-color: $basic_grey;
+    }
+}
