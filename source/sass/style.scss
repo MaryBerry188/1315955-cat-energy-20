@@ -1,5 +1,5 @@
-@import "variables.scss";
-@import "base.scss";
+@import "utils/variables.scss";
+@import "utils/visually-hidden.scss";
 @import "blocks/page.scss";
 @import "blocks/button.scss";
 @import "blocks/catalog.scss";
@@ -21,4 +21,5 @@
 @import "blocks/socials.scss";
 @import "blocks/product-catalog";
 @import "blocks/product-item";
-@import "container";
+@import "utils/container";
+@import "utils/fonts.scss"
