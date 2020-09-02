@@ -1,56 +1,29 @@
-@import "utils/variables.scss";
-@import "utils/visually-hidden.scss";
-<<<<<<< Updated upstream
-@import "blocks/page.scss";
-@import "blocks/button.scss";
-@import "blocks/catalog.scss";
-@import "blocks/contacts.scss";
-@import "blocks/copyright.scss";
-@import "blocks/diets.scss";
-@import "blocks/extra.scss";
-@import "blocks/extra-item.scss";
-@import "blocks/functional-food.scss";
-@import "blocks/how-it-works.scss";
-@import "blocks/live-example.scss";
-@import "blocks/diet.scss";
-@import "blocks/main-nav.scss";
-@import "blocks/more-items.scss";
-@import "blocks/page-footer.scss";
-@import "blocks/page-header.scss";
-@import "blocks/program.scss";
-@import "blocks/gift.scss";
-@import "blocks/socials.scss";
-@import "blocks/product-catalog";
-@import "blocks/product-item";
-@import "utils/container";
-@import "utils/fonts.scss"
-=======
-@import "utils/container";
-@import "utils/fonts.scss";
-@import "utils/animation.scss";
-///
-@import "blocks/general/button.scss";
-@import "blocks/general/contacts.scss";
-@import "blocks/general/copyright.scss";
-@import "blocks/general/main-nav.scss";
-@import "blocks/general/page-footer.scss";
-@import "blocks/general/page-header.scss";
-@import "blocks/general/socials.scss";
-@import "blocks/general/site-nav.scss";
-@import "blocks/general/page-body.scss";
-@import "blocks/general/map.scss";
-@import "blocks/general/page-title.scss";
-///
-@import "blocks/index/diets";
-@import "blocks/index/functional-food.scss";
-@import "blocks/index/example.scss";
-@import "blocks/index/program.scss";
-@import "blocks/index/statistic.scss";
-@import "blocks/index/slider.scss";
-///
-@import "blocks/catalog/extra.scss";
-@import "blocks/catalog/gift.scss";
-@import "blocks/catalog/catalog.scss";
-///
-@import "blocks/forms/form.scss";
->>>>>>> Stashed changes
+$white: #ffffff;
+$grey: #444444;
+$black: #000000;
+$green: #68b738;
+$light-grey: #d9d9d9;
+$dark-grey: #222222;
+$grey-f2: #f2f2f2;
+$grey-c4: #c4c4c4;
+$grey-ea: #eaeaea;
+$grey-e7: #e7e7e7;
+$background: #5eaa2f;
+$special-grey: #cdcdcd;
+$special-grey-3:#dcdcdc;
+$grey-menu: #e6e6e6;
+$green-hover: #5eaa2f;
+$grey-hover: #ebebeb;
+$grey-plus: #d3d3d3;
+$error: #ff8282;
+$radio-hover: #bababa;
+$special-grey-2: #666666;
+$mobile-width-only: 767px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+$oswald: "Oswald",
+"Arial",
+sans-serif;
+//
+$arial: "Arial",
+sans-serif;
