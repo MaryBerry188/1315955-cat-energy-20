@@ -1,16 +1,31 @@
 .button {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    padding-top: 11px;
+    padding-right: 15px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    box-sizing: border-box;
     font-family: $oswald;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
     text-align: center;
+    text-transform: uppercase;
     color: $white;
-    width: 280px;
-    min-height: 40px;
     background-color: $green;
     border: none;
-    outline: none;
-    padding: 0;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+        background-color: $background;
+    }
+    &:active {
+        color: rgba($white, 0.3);
+    }
+    @media (min-width: $tablet-width) {
+        &--growing {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+    }
 }
