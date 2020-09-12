@@ -44,6 +44,7 @@
         }
     }
     @media (min-width: $tablet-width) {
+        min-height: 430px;
         width: 324px;
         margin-bottom: 140px;
         padding: 0;
@@ -55,6 +56,7 @@
         }
     }
     @media (min-width: $desktop-width) {
+        min-height: 430px;
         width: 245px;
         margin: 0;
         &:nth-child(-n + 4) {
@@ -188,7 +190,7 @@
     }
     @media (min-width: $desktop-width) {
         width: 145px;
-        height: 46px;
+        min-height: 46px;
         left: 18px;
         top: 242px;
         font-family: $oswald;
