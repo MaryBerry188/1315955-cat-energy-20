@@ -22,6 +22,9 @@
     &:active {
         color: rgba($white, 0.3);
     }
+    @media (min-width: $mobile-width-only) {
+        width: 240px;
+    }
     @media (min-width: $tablet-width) {
         &--growing {
             padding-top: 16px;
